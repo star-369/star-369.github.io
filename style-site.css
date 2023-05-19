@@ -49,7 +49,7 @@ html {
 header {
   width: 100vw;
   height: 100vh;
-  background: url('img/sebastien-goldberg-CoE79_lhTJM-unsplash.jpg');
+  background: url('sebastien-goldberg-CoE79_lhTJM-unsplash.jpg');
   background-position: bottom;
   background-size: cover;
   /*opacity: 0.7;*/
@@ -150,7 +150,7 @@ p {
 .explore {
   width: 100%;
   height: 100vh;
-  background-image: url('img/ritul-bhattacharjee-q3Di_mbVm5A-unsplash.jpg');
+  background-image: url('ritul-bhattacharjee-q3Di_mbVm5A-unsplash.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
