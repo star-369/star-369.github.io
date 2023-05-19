@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Gowtham Tirri" />
+    <meta
+      name="description"
+      content="Complete Responsive Website Using HTML CSS / Responsive web design tutorial"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style-site.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <h1 class="logo">ADVENTURE</h1>
+      <ul class="nav-link">
+        <li class="active"><a href="#"></a>Home</li>
+        <li><a href="#"></a>Tours</li>
+        <li><a href="#"></a>Explore</li>
+        <li><a href="#"></a>About</li>
+        <li class="ctn"><a href="#"></a>Contact</li>
+      </ul>
+      <img src="img/menu.png" alt="none" class="menu-btn" />
+    </nav>
+
+    <header>
+      <div class="header-content">
+        <h2>Explore The Colorful World</h2>
+        <div class="line"></div>
+        <h1>A WONDERFUL GIFT</h1>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+    </header>
+
+    <!--    Events    -->
+    <section class="events">
+      <div class="title">
+        <h1>Upcoming Event</h1>
+        <div class="line"></div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <img src="img/holly-mandarich-UVyOfX3v0Ls-unsplash.jpg" alt="sorry" />
+          <h4>Everest Camp Trek</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            est asperiores laudantium!
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+
+        <div class="col">
+          <img src="img/ted-bryan-yu-5mezpWin6T8-unsplash.jpg" alt="sorry" />
+          <h4>Walking Holidays</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            est asperiores laudantium!
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore">
+      <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
+          sit. Deserunt illum corporis, saepe dolore rerum nesciunt.
+        </p>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+    </section>
+
+    <section class="tours">
+      <div class="row">
+        <div class="col content-col">
+          <h1>UPCOMING TOURS & DESTINATION</h1>
+          <div class="line"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+            alias, reiciendis exercitationem odit facere vitae vel aperiam
+            laborum natus ab!
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+
+        <div class="col image-col">
+          <div class="image-gallery">
+            <img
+              src="img/img-hike/daniel-j-schwarz-eqZGl9kJVXI-unsplash.jpg"
+              alt="sorry"
+            />
+            <img
+              src="img/img-hike/holly-mandarich-7MrXw_o7Eo4-unsplash.jpg"
+              alt="sorry"
+            />
+            <img
+              src="img/img-hike/evan-sanchez-T22nibt5XvI-unsplash.jpg"
+              alt="sorry"
+            />
+            <img
+              src="img/img-hike/dario-bronnimann-tu2apPbNQTs-unsplash.jpg"
+              alt="sorry"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <p>
+        123 Fifth Avenue, NY 10160, New York, USA | Phone: 800-123-456 | Email:
+        contact@example.com
+      </p>
+      <p>Copyright © 2022 Outdoor Adventure</p>
+    </section>
+
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navLink = document.querySelector(".nav-link");
+
+      menuBtn.addEventListener("click", () => {
+        navLink.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
